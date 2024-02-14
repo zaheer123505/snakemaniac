@@ -1,0 +1,118 @@
+.array-row {
+    display: flex;
+}
+
+.array-cell {
+    width: 25px;
+    height: 25px; 
+    background-color: rgb(30, 26, 26); 
+   
+    text-align: center; 
+    
+}
+.value
+{
+    display: none;
+}
+body{
+    margin: 0px;
+}
+.mainname{
+    color: orangered;
+}
+.container1{
+    margin: 0px;
+    background-color: bisque;
+}
+.container2{
+    background-color: aqua;
+}
+.container3
+{
+    height: 5rem;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container4{
+    margin-right: 40px;
+    width: 32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.score{
+    display: flex;
+}
+.heading{
+    margin: 0px;
+}
+.levels{
+    font-size: 34px;
+}
+.select{
+    font-size: 24px;
+}
+.image2 {
+  width: 100%;
+  height: 510px;
+   
+}
+
+.container5 {
+    margin: 0px;
+    position: relative;
+    margin-top: 10px;
+    left: 180px;
+   
+    justify-content: center;
+}
+
+.imagecontainer{
+    width: 100%;
+    height: 510px;
+    top: 80px;
+   position: absolute;
+    
+}
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section.social a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
